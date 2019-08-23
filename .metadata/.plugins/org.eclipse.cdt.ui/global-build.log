@@ -1,15 +1,70 @@
-22:09:18 **** Incremental Build of configuration Debug for project Clase 1 ****
+22:08:52 **** Incremental Build of configuration Debug for project ejercicio1 ****
+make all 
+Building file: ../src/ejercicio1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio1.d" -MT"src/ejercicio1.o" -o "src/ejercicio1.o" "../src/ejercicio1.c"
+../src/ejercicio1.c: In function ‘main’:
+../src/ejercicio1.c:19:2: warning: statement with no effect [-Wunused-value]
+  for (i ; i < 5; i++){
+  ^~~
+../src/ejercicio1.c:21:11: warning: spurious trailing ‘%’ in format [-Wformat=]
+src/subdir.mk:18: fallo en las instrucciones para el objetivo 'src/ejercicio1.o'
+   scanf("d%", numero);
+           ^
+../src/ejercicio1.c:21:9: warning: too many arguments for format [-Wformat-extra-args]
+   scanf("d%", numero);
+         ^~~~
+../src/ejercicio1.c:28:2: error: expected ‘;’ before ‘return’
+  return 0;
+  ^~~~~~
+make: *** [src/ejercicio1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:32 **** Incremental Build of configuration Debug for project ejercicio1 ****
+make all 
+Building file: ../src/ejercicio1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio1.d" -MT"src/ejercicio1.o" -o "src/ejercicio1.o" "../src/ejercicio1.c"
+../src/ejercicio1.c: In function ‘main’:
+../src/ejercicio1.c:21:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   scanf("%d", numero);
+           ^
+../src/ejercicio1.c:28:2: error: expected ‘;’ before ‘return’
+  return 0;
+  ^~~~~~
+make: *** [src/ejercicio1.o] Error 1
+src/subdir.mk:18: fallo en las instrucciones para el objetivo 'src/ejercicio1.o'
+"make all" terminated with exit code 2. Build might be incomplete.
+22:09:51 **** Incremental Build of configuration Debug for project ejercicio1 ****
+make all 
+Building file: ../src/ejercicio1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio1.d" -MT"src/ejercicio1.o" -o "src/ejercicio1.o" "../src/ejercicio1.c"
+../src/ejercicio1.c: In function ‘main’:
+../src/ejercicio1.c:21:11: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Wformat=]
+   scanf("%d", numero);
+           ^
+../src/ejercicio1.c:21:3: warning: ‘numero’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   scanf("%d", numero);
+   ^~~~~~~~~~~~~~~~~~~
+Finished building: ../src/ejercicio1.c
+ 
+Building target: ejercicio1
+Invoking: GCC C Linker
+gcc  -o "ejercicio1"  ./src/ejercicio1.o   
+Finished building target: ejercicio1
+ 
+22:10:47 **** Incremental Build of configuration Debug for project ejercicio1 ****
+make all 
+Building file: ../src/ejercicio1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ejercicio1.d" -MT"src/ejercicio1.o" -o "src/ejercicio1.o" "../src/ejercicio1.c"
+Finished building: ../src/ejercicio1.c
+ 
+Building target: ejercicio1
+Invoking: GCC C Linker
+gcc  -o "ejercicio1"  ./src/ejercicio1.o   
+Finished building target: ejercicio1
+ 
+22:10:58 **** Incremental Build of configuration Debug for project ejercicio1 ****
 make all 
 make: No se hace nada para 'all'.
-20:55:57 **** Incremental Build of configuration Debug for project Clase 1 ****
-make all 
-Building file: ../src/Clase 1.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Clase 1.d" -MT"src/Clase\ 1.d" -o "src/Clase 1.o" "../src/Clase 1.c"
-Finished building: ../src/Clase 1.c
- 
-Building target: Clase 1
-Invoking: GCC C Linker
-gcc  -o "Clase 1"  ./src/Clase\ 1.o   
-Finished building target: Clase 1
- 
