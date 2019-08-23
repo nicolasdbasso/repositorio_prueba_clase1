@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Clase.c
+ Author      : Misael
+ Version     :
+ Copyright   : GLP
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int uno;
+	int dos;
+	int res;
+
+	printf("Ingrese el primer digito");
+	scanf("%d",&uno);
+	printf("Ingrese el segu");
+	scanf("%d",&dos);
+	res = uno + dos;
+	printf("El resultado es: %d y los num sumados son: %d y %d",res,uno,dos);
+	return 0;
+}
